@@ -5,6 +5,7 @@ var btn2 = document.getElementById("btn-2")
 var btn3 = document.getElementById("btn-3")
 var btn4 = document.getElementById("btn-4")
 var btn5 = document.getElementById("btn-5")
+var deleteButton = document.getElementById("delete")
 
 function resizing() {
   canvas.height = window.innerHeight;
@@ -55,6 +56,9 @@ function changeColorToBlue(){
   ctx.strokeStyle = "blue"
 }
 
+function deleteEverything(){
+  ctx.clearRect(0, 0, canvas.width, canvas.height);
+}
 
 canvas.addEventListener("mousedown", startPosition);
 canvas.addEventListener("mouseup", finishPosition);
@@ -64,3 +68,4 @@ btn2.addEventListener("click",changeColorToRed)
 btn3.addEventListener("click",changeColorToYellow)
 btn4.addEventListener("click",changeColorToGreen)
 btn5.addEventListener("click",changeColorToBlue)
+deleteButton.addEventListener("click", deleteEverything)

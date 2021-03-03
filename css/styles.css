@@ -18,9 +18,46 @@ p{
   color: white;
   margin-left: 10px;
   font-weight: bolder;
+  margin-top: 10px;
 }
 .btn{
   height: 25px;
   width: 25px;
   margin-left: 10px;
+  margin-top: 10px;
+}
+#btn-1{
+  background: black;
+  border: none;
+  cursor: pointer;
+}
+#btn-2{
+  background: red;
+  color: red;
+  border: none;
+  cursor: pointer;
+}
+#btn-3{
+  background:yellow;
+  color: yellow;
+  border: none;
+  cursor: pointer;
+}
+#btn-4{
+  background: green;
+  color: green;
+  border: none;
+  cursor: pointer;
+}
+#btn-5{
+  background: blue;
+  color: blue;
+  border: none;
+  cursor: pointer;
+}
+#delete{
+  background: white;
+  border: none;
+  cursor: pointer;
+  width: 40px;
 }
