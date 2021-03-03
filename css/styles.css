@@ -3,6 +3,24 @@
   padding: 0;
   box-sizing: border-box;
 }
+body{
+  background: linear-gradient(116.82deg, #0386FF 0%, #FF0000 100%);
+}
 #canvas {
   border: 2px solid black;
+  background: white;
+}
+.container{
+  display: flex;
+}
+p{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: white;
+  margin-left: 10px;
+  font-weight: bolder;
+}
+.btn{
+  height: 25px;
+  width: 25px;
+  margin-left: 10px;
 }
