@@ -1,7 +1,7 @@
 # Javascript-Drawing App
 A very simple drawing app I made in my spare time so I can practice working with canvas.
 
-###Characteristics of this app are:
+### Characteristics of this app are:
 1. Drawing on canvas
 2. Selecting the color
 
